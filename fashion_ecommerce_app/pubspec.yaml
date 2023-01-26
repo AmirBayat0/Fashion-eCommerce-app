@@ -1,0 +1,44 @@
+name: fashion_ecommerce_app
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+  animate_do: ^3.0.2
+  advance_notification: ^1.0.6
+  badges: ^2.0.3
+  line_icons: ^2.0.1
+  bottom_bar_matu: ^1.3.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: AlegreyaSans
+      fonts:
+        - asset: assets/fonts/AlegreyaSans-Bold.ttf
+        - asset: assets/fonts/AlegreyaSans-Medium.ttf
+          
+
+
+ 
